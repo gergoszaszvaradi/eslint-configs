@@ -1,4 +1,4 @@
-# `@gergoszaszvaradi/eslint`
+# `@gergoszaszvaradi/eslint-config`
 
 Personal ESLint configuration and rules
 
@@ -7,10 +7,10 @@ Personal ESLint configuration and rules
 ## Installation
 Install this config package:
 ```bash
-npm i -D @gergoszaszvaradi/eslint
+npm i -D @gergoszaszvaradi/eslint-config
 ```
 ```bash
-yarn add -D @gergoszaszvaradi/eslint
+yarn add -D @gergoszaszvaradi/eslint-config
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Extend your eslint config file with the eslintrc provided by this package.
 `.eslintrc.json`
 ```json
 {
-    "extends": ["@gergoszaszvaradi/eslint"]
+    "extends": ["@gergoszaszvaradi/eslint-config"]
 }
 ```
 ### Overriding Rules
@@ -28,7 +28,7 @@ You can still override certain rules by defining the rules again in your config 
 `.eslintrc.json`
 ```json
 {
-    ...
+    // ...
     "rules": {
         "camelCase": "off"
     }
@@ -45,7 +45,7 @@ By default this configuration is set to support both `node` and `browser`. You c
 `.eslintrc.json`
 ```json
 {
-    ...
+    // ...
     "env": {
         // this turns node specific features off.
         "node": false,

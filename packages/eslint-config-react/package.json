@@ -1,19 +1,23 @@
 {
-  "name": "@gergoszaszvaradi/eslint-react",
-  "version": "1.3.0",
+  "name": "@gergoszaszvaradi/eslint-config-react",
+  "version": "0.0.0",
   "description": "Personal react ESLint config",
   "author": "gergoszaszvaradi",
   "repository": "https://github.com/gergoszaszvaradi/eslint-configs",
   "homepage": "",
-  "keywords": ["eslint", "eslint-config", "@typescript-eslint", "typescript", "eslint-config-typescript", "eslint-plugin-import", "react", "eslint-plugin-react", "eslint-plugin-react-hooks"],
-  "license": "MIT",
-  "main": "lib/.eslintrc.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "@typescript-eslint",
+    "typescript",
+    "eslint-config-typescript",
+    "eslint-plugin-import",
+    "react",
+    "eslint-plugin-react",
+    "eslint-plugin-react-hooks"
   ],
+  "license": "MIT",
+  "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"

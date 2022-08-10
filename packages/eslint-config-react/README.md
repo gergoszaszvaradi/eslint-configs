@@ -1,16 +1,16 @@
-# `@gergoszaszvaradi/eslint-react`
+# `@gergoszaszvaradi/eslint-config-react`
 
 Personal react ESLint configuration and rules
 
-> **Note**: This configuration only provides rules for `react` and `react-hooks`. Use [@gergoszaszvaradi/eslint](https://www.npmjs.com/package/@gergoszaszvaradi/eslint) as well to configure ESLint correctly.
+> **Note**: This configuration only provides rules for `react` and `react-hooks`. Use [@gergoszaszvaradi/eslint-config](https://www.npmjs.com/package/@gergoszaszvaradi/eslint-config) as well to configure ESLint correctly.
 
 ## Installation
 Install this config package:
 ```bash
-npm i -D @gergoszaszvaradi/eslint @gergoszaszvaradi/eslint-react
+npm i -D @gergoszaszvaradi/eslint-config @gergoszaszvaradi/eslint-config-react
 ```
 ```bash
-yarn add -D @gergoszaszvaradi/eslint @gergoszaszvaradi/eslint-react
+yarn add -D @gergoszaszvaradi/eslint-config @gergoszaszvaradi/eslint-config-react
 ```
 
 ## Usage
@@ -20,8 +20,8 @@ Extend your eslint config file with the eslintrc provided by this package.
 ```json
 {
     "extends": [
-        "@gergoszaszvaradi/eslint",
-        "@gergoszaszvaradi/eslint-react"
+        "@gergoszaszvaradi/eslint-config",
+        "@gergoszaszvaradi/eslint-config-react"
     ]
 }
 ```
@@ -31,7 +31,7 @@ You can still override certain rules by defining the rules again in your config 
 `.eslintrc.json`
 ```json
 {
-    ...
+    // ...
     "rules": {
         "react/jsx-indent": ["error", 2]
     }
@@ -50,7 +50,7 @@ By default this configuration is set to support both `node` and `browser`. You c
 `.eslintrc.json`
 ```json
 {
-    ...
+    // ...
     "env": {
         // this turns node specific features off.
         "node": false,
