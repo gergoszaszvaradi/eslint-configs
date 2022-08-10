@@ -1,6 +1,6 @@
 {
   "name": "@gergoszaszvaradi/eslint-config-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Personal react ESLint config",
   "author": "gergoszaszvaradi",
   "repository": "https://github.com/gergoszaszvaradi/eslint-configs",
