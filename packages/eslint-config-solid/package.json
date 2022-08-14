@@ -1,0 +1,27 @@
+{
+  "name": "@gergoszaszvaradi/eslint-config-solid",
+  "version": "1.0.0",
+  "description": "Personal solidjs ESLint config",
+  "author": "gergoszaszvaradi",
+  "repository": "https://github.com/gergoszaszvaradi/eslint-configs",
+  "homepage": "",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "@typescript-eslint",
+    "typescript",
+    "eslint-config-typescript",
+    "eslint-plugin-import",
+    "solidjs",
+    "eslint-plugin-solid"
+  ],
+  "license": "MIT",
+  "main": ".eslintrc.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "eslint-plugin-solid": "^0.7.1"
+  }
+}

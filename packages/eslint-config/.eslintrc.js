@@ -29,6 +29,9 @@ module.exports = {
         "public/**/*",
         "assets/**/*",
     ],
+    settings: {
+        "import/ignore": ["node_modules"],
+    },
     rules: {
         "strict": ["error", "safe"],
         "import/named": "error",
