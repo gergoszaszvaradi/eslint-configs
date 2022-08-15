@@ -1,6 +1,6 @@
 {
   "name": "@gergoszaszvaradi/eslint-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Personal typescript ESLint config",
   "author": "gergoszaszvaradi",
   "repository": "https://github.com/gergoszaszvaradi/eslint-configs",
