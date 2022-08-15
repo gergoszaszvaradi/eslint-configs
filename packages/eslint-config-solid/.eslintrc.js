@@ -3,7 +3,7 @@ module.exports = {
         "solid",
     ],
     rules: {
-        "solid/components-return-once": "off",
+        "solid/components-return-once": "error",
         "solid/event-handlers": ["warn", {
             ignoreCase: false, 
         }],

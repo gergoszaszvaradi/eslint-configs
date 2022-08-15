@@ -92,7 +92,7 @@ module.exports = {
             },
         ],
         "import/newline-after-import": "error",
-        "import/prefer-default-export": "error",
+        "import/prefer-default-export": "off",
         "import/no-restricted-paths": "off",
         "import/max-dependencies": "off",
         "import/no-absolute-path": "error",
@@ -507,6 +507,7 @@ module.exports = {
             {
                 newIsCap: true,
                 newIsCapExceptions: [],
+                newIsCapExceptionPattern: "(ctor|Ctor|Constructor)$",
                 capIsNew: false,
                 capIsNewExceptions: [
                     "Immutable.Map",
@@ -1087,7 +1088,10 @@ module.exports = {
         "@typescript-eslint/ban-ts-comment": "error",
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
         "@typescript-eslint/consistent-type-imports": "off",
-        "@typescript-eslint/explicit-function-return-type": "error",
+        "@typescript-eslint/explicit-function-return-type": ["error", {
+            "allowExpressions": true,
+            "allowConciseArrowFunctionExpressionsStartingWithVoid": true,
+        }],
         "@typescript-eslint/explicit-member-accessibility": [
             "error",
             {
