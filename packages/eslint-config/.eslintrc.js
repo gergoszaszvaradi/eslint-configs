@@ -303,7 +303,7 @@ module.exports = {
             "toolbar",
             "top",
         ],
-        "no-shadow": "warn",
+        "no-shadow": "off",
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
         "no-undef-init": "error",
@@ -1131,7 +1131,7 @@ module.exports = {
                 allowGenerics: "always",
             },
         ],
-        "@typescript-eslint/no-shadow": "error",
+        "@typescript-eslint/no-shadow": "warn",
         "@typescript-eslint/no-unused-vars": [
             "error",
             {
